@@ -22,6 +22,7 @@ Beyond Work application. Always read the relevant reference file(s) before imple
 | `references/components.md` | Using or creating a UI component (button, card, dialog, sidebar, …) |
 | `references/conventions.md` | Creating files, routes, hooks, state, or any structural code |
 | `references/assets-catalog.md` | Using logos, brand icons, patterns, fonts, or motion assets |
+| `references/deck-visual-style.md` | Creating or designing a Beyond Work slide deck / presentation |
 
 Load all four for a greenfield feature. Load selectively for targeted changes.
 
