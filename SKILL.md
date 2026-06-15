@@ -18,11 +18,24 @@ Beyond Work application. Always read the relevant reference file(s) before imple
 
 | File | Load when… |
 |------|-----------|
-| `references/design-tokens.md` | Choosing colors, spacing, radius, shadows, typography, or animations |
+| `references/design-tokens.md` | Choosing colors, spacing, radius, shadows, typography, animations, or brand principles |
 | `references/components.md` | Using or creating a UI component (button, card, dialog, sidebar, …) |
 | `references/conventions.md` | Creating files, routes, hooks, state, or any structural code |
+| `references/assets-catalog.md` | Using logos, brand icons, patterns, fonts, or motion assets |
 
-Load all three for a greenfield feature. Load selectively for targeted changes.
+Load all four for a greenfield feature. Load selectively for targeted changes.
+
+## Identity assets
+
+Brand assets (logos, icons, patterns, fonts, motion) live in `assets/` at the root of this skill.
+See `references/assets-catalog.md` for the full catalog with usage rules.
+
+**Key assets at a glance:**
+- **Logos** — `assets/logo/positive/` (dark on light) and `assets/logo/negative/` (white on dark)
+- **Icons** — `assets/icons/` — 21 custom BW icons (atomic, workblock, flow, intelligence, timeline…)
+- **Patterns** — `assets/patterns/` — truchet and dot-grid SVG patterns
+- **Fonts** — Syne (display/headings) + Inter (body/UI) — both in `assets/fonts/`
+- **Motion** — `assets/motion/Spinner.gif` — branded loading spinner
 
 ## App context
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 113.4 113.4">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #252528;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 0 3.2 3.2;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="24.6" y="32.4" width="19.5" height="4.4"/>
+  <rect class="cls-1" x="39.2" y="76.6" width="19.5" height="4.4"/>
+  <g>
+    <circle class="cls-1" cx="34.3" cy="55.9" r="3.8"/>
+    <circle class="cls-1" cx="48.9" cy="55.9" r="3.8"/>
+    <circle class="cls-1" cx="63.5" cy="55.9" r="3.8"/>
+    <circle class="cls-1" cx="78.2" cy="55.9" r="3.8"/>
+    <line class="cls-1" x1="38.1" y1="55.9" x2="45.2" y2="55.9"/>
+    <line class="cls-1" x1="22.7" y1="55.9" x2="29.7" y2="55.9"/>
+    <line class="cls-1" x1="53.2" y1="55.9" x2="60.3" y2="55.9"/>
+    <line class="cls-1" x1="67.5" y1="55.9" x2="74.6" y2="55.9"/>
+    <line class="cls-1" x1="82.4" y1="55.9" x2="90.7" y2="55.9"/>
+  </g>
+  <line class="cls-2" x1="34.3" y1="49.4" x2="34.3" y2="37.9"/>
+  <rect class="cls-1" x="53.8" y="32.4" width="19.5" height="4.4"/>
+  <line class="cls-2" x1="63.5" y1="49.4" x2="63.5" y2="37.9"/>
+  <line class="cls-2" x1="48.9" y1="73" x2="48.9" y2="61.5"/>
+  <rect class="cls-1" x="69.4" y="76.6" width="19.5" height="4.4"/>
+  <line class="cls-2" x1="79.1" y1="73" x2="79.1" y2="61.5"/>
+</svg>

@@ -112,9 +112,45 @@ Tailwind utilities derived from this variable:
 
 ## Typography
 
-- **Font:** Inter (Google Fonts, loaded in root layout)
+Beyond Work uses a **two-font system** from the identity assets:
+
+| Role | Font | Weight | Usage |
+|------|------|--------|-------|
+| **Display / Headlines** | **Syne** | 600–700 | Hero titles, section headers, brand moments |
+| **Body / UI** | **Inter** | 400–600 | All product UI, labels, body copy |
+
+- Syne files: `assets/fonts/Syne.zip` (from identity kit)
+- Inter files: `assets/fonts/Inter.zip` (from identity kit)
 - **Scale:** Tailwind default typographic scale (`text-xs` through `text-4xl`)
 - **Weights:** `font-normal` (400), `font-medium` (500), `font-semibold` (600), `font-bold` (700)
+
+**Brand principle (from whitepaper):** "Light weight for body, heavier for headlines. A serious display face for moments of weight." Syne is the display face — use it for hero sections, onboarding titles, marketing pages. Never use it for dense product UI (data tables, forms, labels).
+
+### Loading fonts (Next.js App Router)
+```tsx
+import { Inter, Syne } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const syne  = Syne({ subsets: ['latin'], variable: '--font-syne', weight: ['600', '700'] })
+```
+
+---
+
+## Brand Aesthetic Principles
+
+From the May 2026 strategic whitepaper — these are hard constraints, not suggestions:
+
+| ✅ Do | ❌ Never |
+|-------|---------|
+| Enterprise infrastructure feel (Stripe, Linear, Datadog) | Consumer chatbot / startup pitch aesthetic |
+| Near-black + white as primaries | Gradients (no decorative gradients) |
+| `#c3e86b` lime/chartreuse accent **used sparingly** | Glow effects |
+| Restrained secondary accents | Glassmorphism |
+| Minimal shadows (only for functional clarity) | Drop shadows beyond what's structurally required |
+| Real working-environment photography | Generic happy office workers or abstract AI imagery |
+| Sans-serif, modern, neutral body type | Kinetic typography that doesn't serve content |
+
+**The core visual test:** "Does this look like serious enterprise infrastructure, or like it's racing for attention?"
 
 ---
 
